@@ -1,0 +1,32 @@
+body{
+    /* background-color: rgb(211, 124, 124); */
+    /* max-width: 500px; */
+    min-height: 250px;
+    max-width: 720px;
+}
+
+#input-el{
+   min-width: 500px;
+   margin: 3px;
+   padding: 7px;
+   /* width: 1000px; */
+}
+
+.contaier{
+    width: 100px;
+}
+
+#ul-el{
+    list-style: none;
+    font-size: 1.5rem;
+}
+button{
+    background-color: rgb(23, 60, 25);
+    color: white;
+    width: 150px;
+    /* margin: 3px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+}
