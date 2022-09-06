@@ -34,6 +34,9 @@ const duckTalk = [
 
 //What happens after the button clicks
 buttonEl.addEventListener("click",function(){
+    if (inputEl.value === ""){
+
+    } else {
     //create a rondom math number and assign it with the duckTalk array so that it could output random text
     let randomIndex = Math.floor(Math.random()*duckTalk.length)
     // let unorthodox = duckTalk[randomIndex]
@@ -43,7 +46,7 @@ buttonEl.addEventListener("click",function(){
                         <br>` 
     inputEl.value =""
     // console.log(duckTalk[randomIndex])
-    
+    }
 })
 
 // function displayWord(){
