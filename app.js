@@ -2,6 +2,8 @@
 let buttonEl = document.getElementById("btn-el")
 let inputEl = document.getElementById("input-el")
 let ulEl = document.getElementById("ul-el")
+// let delayInMilliseconds = 1000; //1 second
+
 
 //list of things the duck can say or the duck's vocabullaries / libraries of thoughts
 const duckTalk = [
@@ -49,6 +51,9 @@ buttonEl.addEventListener("click",function(){
     }
 })
 
+// setTimeout(function() {
+//     //your code to be executed after 1 second
+//   }, delayInMilliseconds);
 // function displayWord(){
 // }
 // console.log(duckTalk[9])
