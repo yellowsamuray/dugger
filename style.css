@@ -1,32 +1,42 @@
 body{
-    /* background-color: rgb(211, 124, 124); */
-    /* max-width: 500px; */
     min-height: 250px;
-    max-width: 720px;
+    background: #393D3F;
 }
 
 #input-el{
-   min-width: 500px;
-   margin: 3px;
-   padding: 7px;
-   /* width: 1000px; */
+    background-color: #C6C5B9;
+    color: #FDFDFF;
+    width: 220px;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 5px;
 }
 
-.contaier{
-    width: 100px;
+.container{
+    width: 100vw;
+    color: #FDFDFF;
 }
 
 #ul-el{
     list-style: none;
     font-size: 1.5rem;
 }
+
+.fix-position{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #C6C5B9;
+}
 button{
-    background-color: rgb(23, 60, 25);
-    color: white;
+    background-color: #546A7B;
+    color: #FDFDFF;
     width: 150px;
-    /* margin: 3px; */
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
 }
