@@ -1,11 +1,15 @@
 # dugger
 inspired by CS50 duch debugger on VSCODE
 
+
+
 List of things to edit-add/found bugs
--Need to change input and button position to fixed position and position it bottom of the screen/view [x]not done
--center items/content [x]not done
--add event listener for "enter"/so that button or enter will work [x]not done
--need more aesthetics [x]not done
+-Need to change input and button position to fixed position and position it bottom of the screen/view [⭕️]done
+-center items/content [⭕️]not done
+-add event listener for "enter"/so that button or enter will work [❌]not done
+-need more aesthetics [❌]not done (not so importantant for now-functionality most important right now)
+-Need to find out how to let the page auto scroll down the page. For now the page need to be manually scrolled to see the result
+
 
 Future features
 - need to turn dugger into extention
